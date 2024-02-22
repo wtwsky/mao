@@ -1,0 +1,860 @@
+{
+  "video": {
+    "sites": [
+      {
+        "key": "push_agent",
+        "name": "推送",
+        "type": 4,
+        "api": "./js/push_open.js",
+        "ext": {
+          "token" : "填你的阿里token",
+          "cookie": ""
+        }
+      },
+      {
+        "key": "douban",
+        "name": "🫛豆瓣｜首页",
+        "type": 3,
+        "indexs": 1,
+        "api": "./js/douban_open.js"
+      },
+      {
+        "key": "wogg",
+        "name": "🧸玩偶哥哥｜阿里",
+        "type": 3,
+        "api": "./js/wogg_open.js",
+        "ext": "填你的阿里token"
+      },
+      {
+        "key": "ysc",
+        "name": "🚗影视车｜阿里",
+        "type": 3,
+        "api": "./js/ysc_open.js",
+        "ext": "填你的阿里token"
+      },
+      {
+        "key": "yunpanres",
+        "name": "📜云盘资源｜阿里",
+        "type": 3,
+        "api": "./js/yunpanres_open.js",
+        "ext": "填你的阿里token"
+      },
+      {
+        "key": "xiaozhitiao",
+        "name": "📝小纸条｜阿里",
+        "type": 3,
+        "api": "./js/xiaozhitiao_open.js",
+        "ext": "填你的阿里token"
+      },
+      {
+        "key": "bqrdh",
+        "name": "🧰不求人导航｜阿里",
+        "type": 3,
+        "api": "./js/bqrdh_open.js",
+        "ext": "填你的阿里token"
+      },
+      {
+        "key": "tuier",
+        "name": "🖼阿里网盘｜阿里",
+        "type": 3,
+        "api": "./js/tuier_open.js",
+        "ext": "填你的阿里token"
+      },
+      {
+        "key": "tudou",
+        "name": "🥔土豆资源站｜阿里",
+        "type": 3,
+        "api": "./js/tudou_open.js",
+        "ext": "填你的阿里token"
+      },
+      {
+        "key": "ttkx",
+        "name": "👻玩我哥哥｜阿里",
+        "type": 3,
+        "api": "./js/ttkx_open.js",
+        "ext": "填你的阿里token"
+      },
+      {
+        "key": "wobg",
+        "name": "🪆玩偶表哥｜阿里",
+        "type": 3,
+        "api": "./js/wobg_open.js",
+        "ext": "填你的阿里token"
+      },
+      {
+        "key": "pansearch",
+        "name": "🔍PanSearch｜阿里",
+        "type": 3,
+        "api": "./js/pansearch_open.js",
+        "ext": "填你的阿里token"
+      },
+      {
+        "key": "upyun",
+        "name": "⛅️UP云搜｜阿里",
+        "type": 3,
+        "api": "./js/upyun_open.js",
+        "ext": "填你的阿里token"
+      },
+      {
+        "key": "pansou",
+        "name": "😼猫狸盘搜｜阿里",
+        "type": 3,
+        "api": "./js/pansou_open.js",
+        "ext": "填你的阿里token"
+      },
+      {
+        "key": "zhaozy",
+        "name": "🕵️‍♂️找资源｜阿里",
+        "type": 3,
+        "api": "./js/zhaozy_open.js",
+        "ext": "填你的阿里token$$$填找资源账号$$$填找资源密码"
+      },
+      {
+        "key": "yiso",
+        "name": "🪄易搜｜阿里",
+        "type": 3,
+        "api": "./js/yiso_open.js",
+        "ext": "填你的阿里token$$$填易搜token"
+      },
+      {
+        "key": "yunpan4k",
+        "name": "🥘云盘4K｜阿里",
+        "type": 3,
+        "api": "./js/yunpan4k_open.js",
+        "ext": "填你的阿里token"
+      },
+      {
+        "key": "dovx",
+        "name": "🌃七夜｜阿里",
+        "type": 3,
+        "api": "./js/dovx_open.js",
+        "ext": "填你的阿里token"
+      },
+      {
+        "key": "czzy",
+        "name": "🏭厂长资源",
+        "type": 3,
+        "api": "./js/czzy_open.js"
+      },
+      {
+        "key": "subaibai",
+        "name": "⚗️素白白影视",
+        "type": 3,
+        "api": "./js/subaibai_open.js",
+        "ext": "https://www.subaibaiys.com"
+      },
+      {
+        "key": "nmdvd",
+        "name": "👨‍🌾农民影视",
+        "type": 3,
+        "api": "./js/nmdvd_open.js",
+        "ext": "https://m.cnmcom.com"
+      },
+      {
+        "key": "dsxys",
+        "name": "👨‍🎓大师兄影视",
+        "type": 3,
+        "api": "./js/dsxys_open.js"
+      },
+      {
+        "key": "tutu",
+        "name": "🏞️图图视频",
+        "type": 3,
+        "api": "./js/tutu_open.js"
+      },
+      {
+        "key": "ng",
+        "name": "🎃南瓜影视",
+        "type": 3,
+        "api": "./js/ng_open.js"
+      },
+      {
+        "key": "kuyun77",
+        "name": "⛅️酷云七七",
+        "type": 3,
+        "api": "./js/kuyun77_open.js"
+      },
+      {
+        "key": "kkys",
+        "name": "👀快看影视",
+        "type": 3,
+        "api": "./js/kkys_open.js"
+      },
+      {
+        "key": "ttian",
+        "name": "🌅天天影视大全",
+        "type": 3,
+        "api": "./js/ttian_open.js"
+      },
+      {
+        "key": "hlys",
+        "name": "🍡葫芦影视",
+        "type": 3,
+        "api": "./js/hlys_open.js"
+      },
+      {
+        "key": "bxys",
+        "name": "🐻‍❄白熊影视",
+        "type": 3,
+        "api": "./js/bxys_open.js"
+      },
+      {
+        "key": "maolvys",
+        "name": "🫏毛驴影视",
+        "type": 3,
+        "api": "./js/maolvys_open.js"
+      },
+      {
+        "key": "pipixia",
+        "name": "🦐皮皮虾",
+        "type": 3,
+        "api": "./js/pipixia_open.js"
+      },
+      {
+        "key": "haoxi",
+        "name": "❤️‍🔥好戏网",
+        "type": 3,
+        "api": "./js/haoxi_open.js"
+      },
+      {
+        "key": "saohuo",
+        "name": "🔥骚火影院",
+        "type": 3,
+        "api": "./js/saohuo_open.js",
+        "ext": {
+          "taken": "kXKIlNYzJiyMvGc53hCzorTSjt9d"
+        }
+      },
+      {
+        "key": "xinshijue",
+        "name": "🏜️新视觉影院",
+        "type": 3,
+        "api": "./js/xinshijue_open.js",
+        "ext": {
+          "taken": "kXKIlNYzJiyMvGc53hCzorTSjt9d"
+        }
+      },
+      {
+        "key": "nkvod",
+        "name": "👔耐看点播",
+        "type": 3,
+        "api": "./js/nkvod_open.js"
+      },
+      {
+        "key": "yhdm",
+        "name": "🌸樱花动漫",
+        "type": 3,
+        "api": "./js/yhdm_open.js"
+      },
+      {
+        "key": "lmm",
+        "name": "🛣️路漫漫",
+        "type": 3,
+        "api": "./js/lmm_open.js"
+      },
+      {
+        "key": "dm84",
+        "name": "🚌动漫巴士",
+        "type": 3,
+        "api": "./js/dm84_open.js"
+      },
+      {
+        "key": "anfuns",
+        "name": "⛩️AnFuns动漫",
+        "type": 3,
+        "api": "./js/anfuns_open.js"
+      },
+      {
+        "key": "catw_moe",
+        "name": "🐱喵物次元",
+        "type": 3,
+        "api": "./js/catw_moe_open.js"
+      },
+      {
+        "key": "miaocy",
+        "name": "😸喵次元｜App",
+        "type": 3,
+        "api": "./js/apppro.js",
+        "ext": {
+          "host": "https://cym.zhui.la",
+          "ver": "6d841219",
+          "vername": "5.8.0",
+          "vercode": "40",
+          "key": "734C756E71636F4838354E6D2F6A446D464B6E7337413D3D0000000000000000",
+          "iv": "fedcba9876543210"
+        }
+      },
+      {
+        "key": "aiya",
+        "name": "🌱哎呀影视｜App",
+        "type": 3,
+        "api": "./js/apppro.js",
+        "ext": {
+          "config": "http://appproperties.test.upcdn.net/1.txt",
+          "host": "http://107.149.212.189:50",
+          "ver": "7ec93dea",
+          "vername": "1.0.4",
+          "vercode": "4"
+        }
+      },
+      {
+        "key": "moguys",
+        "name": "🍄蘑菇影视｜App",
+        "type": 3,
+        "api": "./js/getapp.js",
+        "ext": {
+          "host": "http://111.180.204.151:82",
+          "key": "ba08443ad9e59d70",
+          "ver": "103"
+        }
+      },
+      {
+        "key": "libhd",
+        "name": "🖲️LIBHD｜App",
+        "type": 3,
+        "api": "./js/getapp.js",
+        "ext": {
+          "host": "https://www.libhd.com",
+          "key": "8a2760eedfaeb52a",
+          "ver": "107"
+        }
+      },
+      {
+        "key": "oftens",
+        "name": "🛋️往往影视｜App",
+        "type": 3,
+        "api": "./js/getapp.js",
+        "ext": {
+          "host": "https://app.wwys.pro",
+          "key": "5813c436de4cc6f1",
+          "ver": "118"
+        }
+      },
+      {
+        "key": "feiyun",
+        "name": "⛈️飞云｜App",
+        "type": 3,
+        "api": "./js/appysv2_ext.js",
+        "ext": {
+          "host": "http://122.228.84.103:5821/api.php/app/",
+          "*": [
+            "http://122.228.84.103:7777/api/?key=lEoJRrX01Drg8Of5aA&url="
+          ]
+        }
+      },
+      {
+        "key": "hetang",
+        "name": "🪷荷塘｜App",
+        "type": 3,
+        "api": "./js/appysv2_ext.js",
+        "ext": {
+          "host": "http://web112.minghaoji.cn/api.php/app/",
+          "seven": [
+            "https://jiexi.xn--654a.cc/home/api?type=ys&uid=11819345&key=dkstuxyzDFGIRTUV05&url="
+          ],
+          "LLLG": [
+            "https://vip.liuliyun.vip:8686/api/?key=9CMB6wpsuGf5J9Ovsf&url="
+          ],
+          "tucheng": [
+            "http://110.42.2.98:2222/api/?key=AvfFKNkfmRxbAGKnAj&url=",
+            "https://vip.liuliyun.vip:8686/api/?key=9CMB6wpsuGf5J9Ovsf&url="
+          ],
+          "XAL": [
+            "http://json.xn--654a.cc/home/api?type=ys&uid=2004455&key=hmqstuzABDFQSZ1359&url=",
+            "https://vip.liuliyun.vip:8686/api/?key=9CMB6wpsuGf5J9Ovsf&url="
+          ],
+          "bilibili": [
+            "http://124.223.27.40/jiexi/4KHD.php/?url="
+          ]
+        }
+      },
+      {
+        "key": "1980dyy",
+        "name": "🎞️TVB云播｜App",
+        "type": 3,
+        "api": "./js/skapp.js",
+        "ext": {
+          "key": "ygcnbcravervztme",
+          "iv": "4105142705143708",
+          "token": "",
+          "url": "http://skapp.1980dyy.com"
+        }
+      },
+      {
+        "key": "xiami",
+        "name": "🦐皮皮虾｜App",
+        "type": 3,
+        "api": "./js/skapp.js",
+        "ext": {
+          "key": "ygcnbctboavrghec",
+          "iv": "3435576720143708",
+          "token": "",
+          "sign": "cabeb52d71649fef33c4d5c803ffb7b1",
+          "url": "http://ppx.shijie.chat",
+          "config": "http://sk.shijie.chat/app.txt"
+        }
+      },
+      {
+        "key": "dd123",
+        "name": "🔦光线影院｜App",
+        "type": 3,
+        "api": "./js/skapp.js",
+        "ext": {
+          "key": "ygcnbcttgagdmfcz",
+          "iv": "2836976267143708",
+          "token": "",
+          "url": "https://dy.dd123.us:8851"
+        }
+      },
+      {
+        "key": "yzys",
+        "name": "🫒柚子影视｜App",
+        "type": 3,
+        "api": "./js/skapp.js",
+        "ext": {
+          "key": "ygcnbcwqzaekvzed",
+          "iv": "4004296093143708",
+          "token": "",
+          "url": "https://yz.yzys.top:9777"
+        }
+      },
+      {
+        "key": "silisili",
+        "name": "📯嘶哩嘶哩｜App",
+        "type": 3,
+        "api": "./js/skapp.js",
+        "ext": {
+          "key": "ygcnbcznazmyrbdn",
+          "iv": "6571230062143708",
+          "token": "",
+          "sign": "5ee84cdb542c425139a26d51e9114662",
+          "url": "http://app.silisili.cc"
+        }
+      },
+      {
+        "key": "xifani",
+        "name": "🍚稀饭动漫｜App",
+        "type": 3,
+        "api": "./js/skapp.js",
+        "ext": {
+          "key": "",
+          "iv": "",
+          "token": "",
+          "url": "http://gun.moedot.net"
+        }
+      },
+      {
+        "key": "mervod",
+        "name": "🐈萌猫影视｜App",
+        "type": 3,
+        "api": "./js/appto.js",
+        "ext": {
+          "key": "QBccRNTdEscBYykPWRbKD7YREjN6AJYJ",
+          "ic": "",
+          "token": "",
+          "url": "http://www.laimi.me:9527",
+          "api": "/addons/apptov4/app.php/v1"
+        }
+      },
+      {
+        "key": "xingqisp",
+        "name": "✨星奇视频｜App",
+        "type": 3,
+        "api": "./js/appto.js",
+        "ext": {
+          "key": "6QAdibG36XQ7PyWTr735FHf6pKPfKepH",
+          "ic": "N2SuKkAdSQWY3spPvcj6HJ6E%2BFSGlpSjonNXQL9gHyLnTXRQy1dyye7Lfp8NmAsrvmDr5t4vSXxa3lIg8E001w%2B4NSJJuhnGas8L0vvve%2BSEMGBNmPHpgIF5op74ft6UmY7no4ky9YbpZqibMOusaa257Hvn4X0tStnW8CfsBxg%3D",
+          "token": "",
+          "url": "http://cms1.xingqisp.com",
+          "configurl": "/appto/v2/config/get?p=android",
+          "config": "https://v5-public-1251970844.cos.ap-shanghai.myqcloud.com/accredits/25.json",
+          "api": "/appto/v1"
+        }
+      },
+      {
+        "key": "ciyuancheng",
+        "name": "🏰次元城动漫｜App",
+        "type": 3,
+        "api": "./js/appysv6.js",
+        "ext": {
+          "url": "http://app.95189371.cn",
+          "config": "https://kfcv50-1322747707.cos.ap-shanghai.myqcloud.com/dtym.json",
+          "api": "/ciyuancheng.php/v6"
+        }
+      },
+      {
+        "key": "ddys",
+        "name": "🗼低端影视",
+        "type": 3,
+        "api": "./js/ddys_open.js"
+      },
+      {
+        "key": "ggys",
+        "name": "💫高光影视",
+        "type": 3,
+        "api": "./js/ggys_open.js"
+      },
+      {
+        "key": "sc1080",
+        "name": "🕍圣城影视",
+        "type": 3,
+        "api": "./js/sc1080_open.js"
+      },
+      {
+        "key": "zxzj",
+        "name": "🏠在线之家",
+        "type": 3,
+        "api": "./js/zxzj_open.js",
+        "ext": "https://www.zxzja.com"
+      },
+      {
+        "key": "yqktv",
+        "name": "👁️一起看TV",
+        "type": 3,
+        "api": "./js/yqktv_open.js"
+      },
+      {
+        "key": "ikanbot",
+        "name": "🤖iKanBot",
+        "type": 3,
+        "api": "./js/ikanbot_open.js"
+      },
+      {
+        "key": "996ys",
+        "name": "🍭996影视",
+        "type": 3,
+        "api": "./js/996ys_open.js"
+      },
+      {
+        "key": "adys",
+        "name": "💡爱迪影视｜App",
+        "type": 3,
+        "api": "./js/appysv2.js",
+        "ext": "https://api123.adys.app/xgapp.php/v3/"
+      },
+      {
+        "key": "huya",
+        "name": "🐯虎牙｜直播",
+        "type": 3,
+        "api": "./js/huya_open.js",
+        "ext": {
+          "from": "official",
+          "custom": "1,英雄联盟#2336,王者荣耀"
+        }
+      },
+      {
+        "key": "douyu",
+        "name": "🐟斗鱼｜直播",
+        "type": 3,
+        "api": "./js/douyu_open.js",
+        "ext": {
+          "from": "official",
+          "custom": "LOL,英雄联盟#wzry,王者荣耀"
+        }
+      },
+      {
+        "key": "bililive",
+        "name": "🅱哔哩直播丨直播",
+        "type": 3,
+        "api": "./js/bililive_open.js",
+        "ext": {
+          "cookie": "https://ghproxy.net/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/txt/cookie.txt"
+        }
+      },
+      {
+        "key": "tvlive",
+        "name": "📺电视直播｜直播",
+        "type": 3,
+        "api": "./js/caiji.js",
+        "ext": "https://tvbox.serv00.net/live.php"
+      },
+      {
+        "key": "shaozeyy",
+        "name": "🦸‍♂️少泽影客｜App",
+        "type": 3,
+        "api": "./js/appysv2_ext.js",
+        "ext": {
+          "host": "https://yk.shaozeyy.com/api.php/app/",
+          "YuMi-vip": [
+            "https://jxjson.cf/json.php?url="
+          ]
+        }
+      },
+      {
+        "key": "netflixdog",
+        "name": "🐶奈飞狗｜App",
+        "type": 3,
+        "api": "./js/appysv2.js",
+        "ext": "https://netflixdog.club/api.php/app/"
+      },
+      {
+        "key": "kuying",
+        "name": "🕶酷影｜App",
+        "type": 3,
+        "api": "./js/appysv2.js",
+        "ext": "https://www.gsjtlxy.top/xgapp.php/v3/"
+      },
+      {
+        "key": "bilibili",
+        "name": "📺️哔哩哔哩",
+        "type": 3,
+        "api": "./js/bili_open.js",
+        "ext": {
+            "categories": "热门#动画#番剧#电影#电视剧#综艺#纪录片#影视#解说#国创#音乐#MV#娱乐#游戏#鬼畜#搞笑#沙雕#小姐姐",
+            "cookie": "https://ghproxy.net/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/txt/cookie.txt"
+        }
+      },
+      {
+        "key": "star",
+        "name": "⭐️星视界【魔法】",
+        "type": 3,
+        "api": "./js/star_open.js"
+      },
+      {
+        "key": "nivod",
+        "name": "🪨泥巴【魔法】",
+        "type": 3,
+        "api": "./js/nivod_open.js",
+        "ext": "888解忧愁"
+      }
+    ]
+  },
+  "read": {
+    "sites": [
+      {
+        "key": "13bqg",
+        "name": "🏯笔趣阁",
+        "type": 10,
+        "api": "./js/13bqg_open.js"
+      },
+      {
+        "key": "shuyinfm",
+        "name": "📖书音FM",
+        "type": 10,
+        "api": "./js/shuyinfm_book_open.js"
+      },
+      {
+        "key": "bookan",
+        "name": "📚博看听书",
+        "type": 10,
+        "api": "./js/bookan_open.js"
+      },
+      {
+        "key": "lbgs",
+        "name": "🗞️老白故事",
+        "type": 10,
+        "api": "./js/lbgs_open.js"
+      },
+      {
+        "key": "230ts",
+        "name": "👂爱上你听书",
+        "type": 10,
+        "api": "./js/230ts_book_open.js"
+      },
+      {
+        "key": "dj0898",
+        "name": "🎧世纪DJ音乐网",
+        "type": 10,
+        "api": "./js/dj0898_book_open.js"
+      }
+    ]
+  },
+  "comic": {
+    "sites": [
+      {
+          "key": "baozimh",
+          "name": "🍔包子漫画",
+          "type": 20,
+          "api": "./js/baozimh_open.js"
+      },
+      {
+          "key": "boutique_comics",
+          "name": "🎏风车漫画",
+          "type": 20,
+          "api": "./js/boutique_comics_open.js"
+      },
+      {
+          "key": "bengou",
+          "name": "🐶笨狗漫画",
+          "type": 20,
+          "api": "./js/bengou_open.js"
+      },
+      {
+          "key": "manhuagui",
+          "name": "🗄️漫画柜",
+          "type": 20,
+          "api": "./js/manhuagui_open.js"
+      },
+      {
+          "key": "mkz",
+          "name": "🏨漫客栈漫画",
+          "type": 20,
+          "api": "./js/mkz_open.js"
+      },
+      {
+          "key": "acgwd",
+          "name": "🪗亲亲漫画",
+          "type": 20,
+          "api": "./js/acgwd_open.js"
+      },
+      {
+          "key": "copymanga",
+          "name": "📑拷贝漫画",
+          "type": 20,
+          "api": "./js/copymanga_open.js"
+      }
+    ]
+  },
+  "pan": {
+    "sites": [
+      {
+        "key": "alist",
+        "name": "Alist",
+        "type": 40,
+        "api": "./js/alist_open.js",
+        "ext": [
+          {
+            "name": "🧚‍♀️丫仙女",
+            "server": "http://alist.xiaoya.pro/",
+            "startPage": "/",
+            "showAll": false,
+            "search": true,
+            "headers": {
+              "Authorization": ""
+            },
+            "params": {
+              "/abc": {
+                "password": "123"
+              },
+              "/abc/abc": {
+                "password": "123"
+              }
+            }
+          },
+          {
+            "name": "🎀小雅云",
+            "server": "https://xiaoya.whp.lat/"
+          },
+          {
+            "name": "▶️杜比",
+            "server": "https://dubi.tk"
+          },
+          {
+            "name": "🆕小新盘",
+            "server": "https://pan.cdnxin.top/"
+          },
+          {
+            "name": "☁️白云tv",
+            "server": "http://breadmyth.asuscomm.com:22222/"
+          },
+          {
+            "name": "👗瑶瑶",
+            "server": "https://lyly.run.goorm.io/"
+          },
+          {
+            "name": "🤠潇洒个人",
+            "server": "https://alist.azad.asia/"
+          },
+          {
+            "name": "🧩鹏程",
+            "server": "https://pan.pengcheng.team/"
+          },
+          {
+            "name": "✴️触光",
+            "server": "https://pan.ichuguang.com"
+          },
+          {
+            "name": "💧弱水分享",
+            "server": "http://shicheng.wang:555/"
+          },
+          {
+            "name": "🏯资源大站",
+            "server": "https://pan.ecve.cn/"
+          },
+          {
+            "name": "☔️雨呢",
+            "server": "https://pan.clun.top/"
+          },
+          {
+            "name": "🦸‍♂️小陈",
+            "server": "https://pan.oldming.top/"
+          },
+          {
+            "name": "🌊七米蓝",
+            "server": "https://al.chirmyram.com"
+          },
+          {
+            "name": "🐉神族九帝",
+            "server": "https://alist.shenzjd.com"
+          },
+          {
+            "name": "✨星梦",
+            "server": "https://pan.bashroot.top"
+          },
+          {
+            "name": "💦讯维云盘",
+            "server": "https://pan.xwbeta.com"
+          },
+          {
+            "name": "🔍小雅搜",
+            "server":"http://198.211.29.109:5678/"
+          },
+          {
+            "name": "🏫学习",
+            "server": "http://45.85.77.23:5244/"
+          },
+          {
+            "name": "🕶酷呵盘",
+            "server": "https://pan.kuhehe.top/"
+          },
+          {
+            "name": "🍻分享者",
+            "server": "http://223.166.103.170:5244/"
+          },
+          {
+            "name": "🎎动漫盘",
+            "server": "http://pan.smjc.cc"
+          },
+          {
+            "name": "🎐神秘小盘",
+            "server": "https://yun.llzz.top/"
+          },
+          {
+            "name": "🌌皓星繁天",
+            "server": "https://pan.hxft.xyz/"
+          },
+          {
+            "name": "👀微资·随意盘",
+            "server": "https://apps.weixinqqq.com/"
+          },
+          {
+            "name": "🍤CCAA",
+            "server": "http://69.161.221.160:5244/"
+          },
+          {
+            "name": "🌱个人站1",
+            "server": "http://223.166.240.80:5244/"
+          },
+          {
+            "name": "🌱个人站2",
+            "server": "http://223.166.31.107:5244/"
+          },
+          {
+            "name": "🌱个人站3",
+            "server": "http://223.166.201.129:5244/"
+          }
+        ]
+      }
+    ]
+  },
+  "color": [
+    {
+      "light": { "bg": "https://i2.100024.xyz/2024/01/13/qrnuwt.webp", "bgMask": "0x50ffffff", "primary": "0xFF2B6C00", "onPrimary": "0xFFFFFFFF", "primaryContainer": "0xFFA6F779", "onPrimaryContainer": "0xFF082100", "secondary": "0xFF55624C", "onSecondary": "0xFFFFFFFF", "secondaryContainer": "0xFFD9E7CA", "onSecondaryContainer": "0xFF131F0D", "tertiary": "0xFF386666", "onTertiary": "0xFFFFFFFF", "tertiaryContainer": "0xFFBBEBEB", "onTertiaryContainer": "0xFF002020", "error": "0xFFBA1A1A", "onError": "0xFFFFFFFF", "errorContainer": "0xFFFFDAD6", "onErrorContainer": "0xFF410002", "background": "0xFFFDFDF5", "onBackground": "0xFF1A1C18", "surface": "0xFFFDFDF5", "onSurface": "0xFF1A1C18", "surfaceVariant": "0xFFE0E4D6", "onSurfaceVariant": "0xFF1A1C18", "inverseSurface": "0xFF2F312C", "onInverseSurface": "0xFFF1F1EA", "outline": "0xFF74796D", "outlineVariant": "0xFFC3C8BB", "shadow": "0xFF000000", "scrim": "0xFF000000", "inversePrimary": "0xFF8CDA60", "surfaceTint": "0xFF2B6C00" },
+      "dark": { "bg": "https://i2.100024.xyz/2024/01/13/qrc37o.webp", "bgMask": "0x50000000", "primary": "0xFF8CDA60", "onPrimary": "0xFF133800", "primaryContainer": "0xFF1F5100", "onPrimaryContainer": "0xFFA6F779", "secondary": "0xFFBDCBAF", "onSecondary": "0xFF283420", "secondaryContainer": "0xFF3E4A35", "onSecondaryContainer": "0xFFD9E7CA", "tertiary": "0xFFA0CFCF", "onTertiary": "0xFF003737", "tertiaryContainer": "0xFF1E4E4E", "onTertiaryContainer": "0xFFBBEBEB", "error": "0xFFFFB4AB", "errorContainer": "0xFF93000A", "onError": "0xFF690005", "onErrorContainer": "0xFFFFDAD6", "background": "0xFF1A1C18", "onBackground": "0xFFE3E3DC", "outline": "0xFF8D9286", "onInverseSurface": "0xFF1A1C18", "inverseSurface": "0xFFE3E3DC", "inversePrimary": "0xFF2B6C00", "shadow": "0xFF000000", "surfaceTint": "0xFF8CDA60", "outlineVariant": "0xFF43483E", "scrim": "0xFF000000", "surface": "0xFF1A1C18", "onSurface": "0xFFC7C7C0", "surfaceVariant": "0xFF43483E", "onSurfaceVariant": "0xFFC7C7C0" }
+    },
+    {
+      "light": { "bg": "https://dimsum-tvbox.netlify.app/bg/23.jpg", "bgMask": "0x50ffffff", "primary": "0xFF4169E1", "onPrimary": "0xFFFFFFFF", "primaryContainer": "0xFF1E90FF", "onPrimaryContainer": "0xFF080021", "secondary": "0xFF0A0C32", "onSecondary": "0xFFFFFFFF", "secondaryContainer": "0xFF56A9FF", "onSecondaryContainer": "0xFF130D1F", "tertiary": "0xFF020666", "onTertiary": "0xFFFFFFFF", "tertiaryContainer": "0xFFBBEBEB", "onTertiaryContainer": "0xFF002020", "error": "0xFFBA1A1A", "onError": "0xFFFFFFFF", "errorContainer": "0xFFFFD6DA", "onErrorContainer": "0xFF410200", "background": "0xFFFDF5FD", "onBackground": "0xFF1A181C", "surface": "0xFFFDF5FD", "onSurface": "0xFF1A181C", "surfaceVariant": "0xFFE0D6E4", "onSurfaceVariant": "0xFF1A181C", "inverseSurface": "0xFF2F2C31", "onInverseSurface": "0xFFF1EAF1", "outline": "0xFF746D79", "outlineVariant": "0xFFC3BBC8", "shadow": "0xFF000000", "scrim": "0xFF000000", "inversePrimary": "0xFF8C60DA", "surfaceTint": "0xFF2B006C" },
+      "dark": { "bg": "https://dimsum-tvbox.netlify.app/bg/1.jpg", "bgMask": "0x50000000", "primary": "0xFF00BFFF", "onPrimary": "0xFF130038", "primaryContainer": "0xFF87CEEB", "onPrimaryContainer": "0xFFA679F7", "secondary": "0xFF1D1FAB", "onSecondary": "0xFF282034", "secondaryContainer": "0xFF09A5C2", "onSecondaryContainer": "0xFFD9CAE7", "tertiary": "0xFF101FCF", "onTertiary": "0xFF003737", "tertiaryContainer": "0xFF1E4E4E", "onTertiaryContainer": "0xFFBBEBEB", "error": "0xFFFFABB4", "errorContainer": "0xFF93000A", "onError": "0xFF690500", "onErrorContainer": "0xFFFFD6DA", "background": "0xFF1A181C", "onBackground": "0xFFE3DCE3", "outline": "0xFF8D8692", "onInverseSurface": "0xFF1A181C", "inverseSurface": "0xFFE3DCE3", "inversePrimary": "0xFF2B006C", "shadow": "0xFF000000", "surfaceTint": "0xFF8C60DA", "outlineVariant": "0xFF433E48", "scrim": "0xFF000000", "surface": "0xFF1A181C", "onSurface": "0xFFC7C0C7", "surfaceVariant": "0xFF433E48", "onSurfaceVariant": "0xFFC7C0C7" }
+    }
+  ]
+}
